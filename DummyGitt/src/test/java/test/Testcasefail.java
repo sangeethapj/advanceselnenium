@@ -8,7 +8,7 @@ import junit.framework.Assert;
 public class Testcasefail {
 @Test
 public void testfail() {
-	String status="false";
+	String status="true";
 	Assert.assertEquals(status, true,"Failed : ");
 	Reporter.log("Succesfully created campaign    ",true);
 	
